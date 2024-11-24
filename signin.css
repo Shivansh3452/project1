@@ -1,0 +1,68 @@
+/* Existing styles... */
+
+/* Form Section Styles */
+.form-section {
+    padding: 50px 0;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.form-section h2 {
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin: 15px 0;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn {
+    background: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+/* Additional Styles for Sign In Page */
+.form-section p {
+    margin-top: 20px;
+}
+
+.form-section a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.form-section a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+
+    .form-group input {
+        font-size: 16px;
+    }
+}
